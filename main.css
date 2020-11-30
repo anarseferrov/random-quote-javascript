@@ -1,0 +1,42 @@
+body {
+    margin: 0;
+    font-family: 'Metal Mania', cursive;
+    background-color: darkgrey;
+}
+
+#container {
+    position: absolute;
+    top: 35%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 24px;
+    font-weight: 500;
+}
+
+.source {
+    text-align: right;
+}
+
+.button {
+    position: absolute;
+    top: 60%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+button {
+    padding: 10px 40px;
+    font-size: 17px;
+    font-weight: 500;
+    border: none;
+    color: white;
+    border-radius: 12px;
+    background-color: rgb(148, 147, 145);
+    cursor: pointer;
+}
+
+button:hover {
+    transition: .3s;
+    opacity: 0.9;
+    border: none;
+}
